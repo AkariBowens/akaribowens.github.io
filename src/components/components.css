@@ -1,0 +1,81 @@
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__intro {
+  display: flex;
+  flex-direction: row;
+
+  /* align-items: center; */
+  justify-content: center;
+  /* text-align: center; */
+}
+
+.about__intro--name {
+  max-width: 50%;
+}
+
+.about__intro--paragraph {
+  max-width: 25%;
+}
+
+.about__skills {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding: 5px;
+}
+
+.about__skills--item {
+  display: inline-block;
+  margin: 3px;
+  padding: 2px;
+  background-color: #36454f;
+  color: white;
+  font-weight: 500;
+}
+
+/* Projects section */
+
+.projects__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.projects__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: lightgray;
+  margin: 15px;
+  padding: 10px;
+
+  border-radius: 15px;
+}
+
+.projects__card > p {
+  padding: 15px;
+  width: 65%;
+}
+
+.projects__card > img {
+  border-radius: 20px;
+}
+
+.projects__card--links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  width: 75%;
+  margin: 10px;
+}
+
+.projects__card--links > button {
+  margin: auto;
+}
